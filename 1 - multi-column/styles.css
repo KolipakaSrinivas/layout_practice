@@ -29,3 +29,18 @@ header{
   gap: 60px;
   max-width: 1200px;
 }
+
+article img, article.featcher img{
+
+  width: 100%;
+  border: 3px solid white;
+  
+}
+
+.featcher{
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
